@@ -5,35 +5,39 @@
 #include <map>
 #include <string>
 #include <vector>
-using mojamapa_t = std::map<std::string, std::vector<double>>;
-using mojafunkcja_t = std::function<std::double_t (std::vector<double>)>;
-void wypisz(mojamapa_t mapa, mojafunkcja_t fun) {
-    using namespace std;
-    for (auto kv : mapa) {
-        auto [k, v] = kv;
-        cout << "klucz: " << k << " \nwartosc " << fun(v) << endl;
+
+using namespace std;
+using mojamapa_t = map<string, vector<double>>;
+using mojafunkcja_t = function<double_t (vector<double>)>;
+void wypisz(const mojamapa_t& mapa, const mojafunkcja_t& fun) {
+    for (auto& [nazwa, wektor] : mapa) {
+        cout << nazwa << ": ";
+        for (auto& x : wektor){
+            cout << x << " ";
+        }
+        cout << " -> " << fun(wektor) << endl;
+        cout << " 0: OK" << endl;
     }
 }
 int main(int argc, char **argv) {
-    using namespace std;
     map<string, mojafunkcja_t> formatery;
     formatery["sin"] = [](vector<double> x) { return sin(x[0]); };
     formatery["add"] = [](vector<double> x) { return x[0] + x[1]; };
     formatery["mod"] = [](vector<double> x) { return (int)x[0] % (int)x[1]; };
+    basic_string<char> key;// = np "sin";
     try {
-        vector<string> argumenty(argv, argv + argc);
-        string key = argumenty[1];
-        vector<double> wartosci;
-        for (int i = 2; i < argc; ++i) {
-            wartosci.push_back(stod(argumenty[i]));
+        vector<string> argumenty(argv, argv + argc);//
+        key = argumenty[2];//2 bo na 1 jest lab1 np "sin";
+        vector<double> wartosci;// = wartosci np { 1.0, 2.0 };
+        for (int i = 3; i < argc; ++i) {
+            wartosci.push_back(stod(argumenty[i]));//stod - string to double
         }
-        mojamapa_t mojamapa = {{key, wartosci}};
-        wypisz(mojamapa, formatery[key]);
-    } catch (std::exception exception) {
-        if(argc == 2 ){
-           cout << "0" <<endl;
-        }else{
-            cout <<"Blad kod: 1"<<endl;
+        wypisz({{key, wartosci}}, formatery[key]);//wypisz({{"sin", {1.0, 2.0}}}, formatery["sin"]);
+    } catch ( ... ) {
+        if (formatery.find(key) == formatery.end()) {
+            cout << "\n1: Blad: Nie ma takiej funkcji" <<  endl;// Nie ma takiej funkcji
+        } else {
+            cout << "\n1: Blad: Niepoprawne argumenty" <<  endl;// Niepoprawne argumenty
         }
     }
     return 0;
