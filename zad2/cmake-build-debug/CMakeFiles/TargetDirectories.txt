@@ -1,0 +1,3 @@
+C:/Users/piotr/Documents/Studia/Semestr 5/NAI/lab2/cmake-build-debug/CMakeFiles/lab2.dir
+C:/Users/piotr/Documents/Studia/Semestr 5/NAI/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/piotr/Documents/Studia/Semestr 5/NAI/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
