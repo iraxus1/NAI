@@ -1,0 +1,60 @@
+Pomiar 1 ilosc iteracji: 1000000
+czas: 2s
+best x2 = -5.66501
+Pomiar 2 ilosc iteracji: 2000000
+czas: 4s
+best x2 = 7.99842
+Pomiar 3 ilosc iteracji: 3000000
+czas: 7s
+best x2 = -8.66551
+Pomiar 4 ilosc iteracji: 4000000
+czas: 9s
+best x2 = -5.3316
+Pomiar 5 ilosc iteracji: 5000000
+czas: 12s
+best x2 = -9.33225
+Pomiar 6 ilosc iteracji: 6000000
+czas: 14s
+best x2 = 9.66538
+Pomiar 7 ilosc iteracji: 7000000
+czas: 16s
+best x2 = 0.670022
+Pomiar 8 ilosc iteracji: 8000000
+czas: 19s
+best x2 = -1.32924
+Pomiar 9 ilosc iteracji: 9000000
+czas: 21s
+best x2 = 7.66501
+Pomiar 10 ilosc iteracji: 10000000
+czas: 23s
+best x2 = 5.66436
+Pomiar 11 ilosc iteracji: 11000000
+czas: 26s
+best x2 = 4.33023
+Pomiar 12 ilosc iteracji: 12000000
+czas: 28s
+best x2 = -0.661675
+Pomiar 13 ilosc iteracji: 13000000
+czas: 31s
+best x2 = 8.99861
+Pomiar 14 ilosc iteracji: 14000000
+czas: 33s
+best x2 = -9.66562
+Pomiar 15 ilosc iteracji: 15000000
+czas: 36s
+best x2 = 6.33129
+Pomiar 16 ilosc iteracji: 16000000
+czas: 38s
+best x2 = 1.99434
+Pomiar 17 ilosc iteracji: 17000000
+czas: 40s
+best x2 = -1.32924
+Pomiar 18 ilosc iteracji: 18000000
+czas: 43s
+best x2 = 5.99783
+Pomiar 19 ilosc iteracji: 19000000
+czas: 45s
+best x2 = -5.3316
+Pomiar 20 ilosc iteracji: 20000000
+czas: 48s
+best x2 = 2.3279
