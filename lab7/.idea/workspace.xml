@@ -8,7 +8,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="lab4" targetName="lab4" />
+      <config projectName="lab7" targetName="lab7" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -17,7 +17,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc2b8cae-a14a-4da5-b127-cd994648f1df" name="Changes" comment="" />
+    <list default="true" id="65b29d78-8223-4995-921a-0b099dbf3e19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab5/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +42,7 @@
     <option name="majorVersion" value="2022" />
     <option name="minorVersion" value="2.4" />
   </component>
-  <component name="ProjectId" id="2GfibcyufCZcdPdmL8dTRkpLPfl" />
+  <component name="ProjectId" id="2HxDXT1JKfzP1PQfE3i0kymV55K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,23 +50,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/piotr/Documents/Studia/Semestr 5/NAI/NAI/lab5"
+    "last_opened_file_path": "C:/Users/piotr/Documents/Studia/Semestr 5/NAI/NAI/lab7",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lab4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab4" TARGET_NAME="lab4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab4" RUN_TARGET_NAME="lab4">
+    <configuration name="lab7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab7" TARGET_NAME="lab7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab7" RUN_TARGET_NAME="lab7">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -71,19 +68,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fc2b8cae-a14a-4da5-b127-cd994648f1df" name="Changes" comment="" />
-      <created>1666786111646</created>
+      <changelist id="65b29d78-8223-4995-921a-0b099dbf3e19" name="Changes" comment="" />
+      <created>1669217880523</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666786111646</updated>
-      <workItem from="1666786114196" duration="526000" />
-      <workItem from="1666786768374" duration="384000" />
-      <workItem from="1666790282792" duration="1463000" />
-      <workItem from="1666792852457" duration="34000" />
-      <workItem from="1666795156536" duration="2472000" />
-      <workItem from="1666799349712" duration="68000" />
-      <workItem from="1668007993376" duration="1000" />
-      <workItem from="1668008241291" duration="111000" />
+      <updated>1669217880523</updated>
+      <workItem from="1669217882326" duration="76000" />
+      <workItem from="1669217972386" duration="2801000" />
+      <workItem from="1669560427871" duration="18000" />
+      <workItem from="1669805893303" duration="6000" />
+      <workItem from="1669812062017" duration="36000" />
+      <workItem from="1669825934239" duration="16000" />
     </task>
     <servers />
   </component>
