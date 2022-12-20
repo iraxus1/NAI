@@ -14,19 +14,19 @@ int main(int argc, char **argv) {
               << "x" << cap.get(cv::CAP_PROP_FRAME_HEIGHT) << std::endl;
     do {
         cv::Mat frame;
-        if ( cap.read( frame ) ) {
+        if (cap.read(frame)) {
             cv::flip(frame, frame, 1); //flipped
-            cv::imshow( "Not-yet smart windown", frame );
+            cv::imshow("Not-yet smart windown", frame);
             //using gray scale get edges
             cv::Mat gray;
             cv::cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
             cv::Mat edges;
             cv::Canny(gray, edges, 100, 200);
-            cv::imshow( "Edges", edges );
+            cv::imshow("Edges", edges);
             //measure building time of frame
             int64 t0 = cv::getTickCount();
             int64 t1 = cv::getTickCount();
-            double secs = (t1 - t0)/cv::getTickFrequency();
+            double secs = (t1 - t0) / cv::getTickFrequency();
             std::cout << "Time of frame: " << secs << " seconds" << std::endl;
 
         } else {

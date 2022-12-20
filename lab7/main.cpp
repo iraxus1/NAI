@@ -4,6 +4,7 @@
 #include <random>
 #include <tuple>
 #include <vector>
+#include <numeric>
 
 using genotype_t = std::vector<char>;
 using population_t = std::vector<genotype_t>;
@@ -13,7 +14,7 @@ using population_fitness_t = std::vector<double>;
 std::random_device random_dev;
 std::default_random_engine random_engine(random_dev());
 std::uniform_real_distribution<double> double_random_dist(0.0, 1.0);
-std::uniform_int_distribution<char> rand_01(0, 1);
+//std::uniform_int_distribution<char> rand01(0, 1);
 
 
 std::vector<int> selection_roulette(population_fitness_t fitnesses) {
@@ -143,7 +144,7 @@ int main() {
     for (int i = 0; i < population_size; i++) {
         genotype_t gene;
         for (int j = 0; j < gene_size; j++) {
-            gene.push_back(rand_01(random_engine));
+//            gene.push_back(rand_01(random_engine));
         }
         population.push_back(gene);
     }
